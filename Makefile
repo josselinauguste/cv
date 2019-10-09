@@ -1,4 +1,7 @@
-PHONY: build
+PHONY: build,install
+
+install:
+	brew install tectonic
 
 build:
-	xelatex cv.tex
+	tectonic cv.tex
