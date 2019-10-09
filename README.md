@@ -8,4 +8,4 @@
 
 ## Build
 
-`xelatex cv.tex`
+`make build`
